@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+}
+.hero h1{
+    text-align: right;
+}
+.hero p{
+    text-align: left;
+}
+.hero ul{
+    text-align: center;
+}
