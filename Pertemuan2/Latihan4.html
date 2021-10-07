@@ -1,0 +1,126 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Biodata</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Data Siswa Mahasiswa Prodi Sistem Informasi</legend>
+                <table width="100%">
+                    <tr>
+                        <td width="40%">
+                            <label>Nama Lengkap</label>
+                        </td>
+                        <td>:
+                            <input type="text" name="nama_lengkap">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="40%">
+                            <label>Nama Panggilan</label>
+                        </td>
+                        <td>:
+                            <input type="text" name="nama_panggilan">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="40%">
+                            Jenis Kelamin
+                        </td>
+                        <td>:
+                            <label>
+                                <input type="radio" name="kelmain">Laki-laki
+                            </label>
+                            <label>
+                                <input type="radio" name="kelmain">Perempuan
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="40%">
+                            Tempat Tanggal lahir
+                        </td>
+                        <td>:
+                            <input type="text" name="ttl">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="40%">
+                            Agama
+                        </td>
+                        <td>:
+                            <select name="agama">
+                                <option value="Islam">Islam</option>
+                                <option value="Kristen">Kristen</option>
+                                <option value="Katholik">Katholik</option>
+                                <option value="Budha">Budha</option>
+                                <option value="Konghucu">Konghucu</option>
+                                <option value="Penghayat Kepercayaan">Penghayat Kepercayaan</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="40%">
+                            Berat Badan
+                        </td>
+                        <td>:
+                            <input type="number" name="berat_badan">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="40%">
+                            Golongan Darah
+                        </td>
+                        <td>:
+                            <label>
+                                <input type="radio" name="gol_dar">O
+                            </label>
+                            <label>
+                                <input type="radio" name="gol_dar">A
+                            </label>
+                            <label>
+                                <input type="radio" name="gol_dar">B
+                            </label>
+                            <label>
+                                <input type="radio" name="gol_dar">AB
+                            </label>
+                        </td>
+                    </tr>
+                </table>
+        </fieldset>
+        <fieldset>
+            <legend>Nomor Kontak Mahasiswa</legend>
+            <table>
+                <tr>
+                    <td width="40%">
+                        ALamat Rumah
+                    </td>
+                    <td>:
+                        <textarea></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="40%">
+                        Email
+                    </td>
+                    <td>:
+                        <input type="email" name="email">
+                    </td>
+                </tr>
+                <tr>
+                    <td with="40%">
+                        Nomor yang bisa dihibungi
+                    </td>
+                    <td>:
+                        <input type="number" name="no_hp">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <button type="submit">Kirim</button>
+    </form>
+</body>
+</html>
