@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak Saya</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                Web Saya
+            </div>
+        </header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Beranda</a>
+                </li>
+                <li>
+                    <a href="kontak-saya.html">Kontak Saya</a>
+                </li>
+                <li>
+                    <a href="tentang-saya.html">Tentang Saya</a>
+                </li>
+            </ul>
+        </nav>
+        <article>
+            <div class="isi">
+                <div class="judul">
+                    Kontak Saya
+                </div>
+                <img src="./contact.png" alt="" style="height: fit-content; width: 400px;">
+                <h2>Hubungi Saya!</h2>
+                <form action="contact.php" method="POST">
+                            <p>
+                                <label>Name :</label>
+                                <input type="text" name="name" placeholder="your name ....">
+                            </p>
+                            <p>
+                                <label>Email :</label>
+                                <input type="email" name="email" placeholder="your email...">
+                            </p>
+                            <p>
+                                <label for="">Pesan :</label>
+                                    <input type="text" name="pesan" placeholder="Masukkan pesan..."> 
+                                
+                            </p>
+                            <p>
+                                <input type="submit" name="submit" value="Send">
+                            </p>
+
+                </form>
+            </div>
+        </article>
+        <footer>
+            Copyright 2020 web-saya
+        </footer>
+    </div>
+</body>
+</html>
