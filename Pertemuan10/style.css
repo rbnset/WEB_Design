@@ -1,0 +1,59 @@
+.row {
+  background: #2980b9;
+  color: #fff;
+}
+
+h2 {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.btn {
+  border: 1px solid #fff;
+}
+
+ul.social-buttons {
+  color: gray;
+}
+
+ul.social-buttons li a {
+  font-size: 20px;
+  line-height: 50px;
+  display: block;
+  width: 50px;
+  height: 50px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  color: white;
+  border-radius: 100%;
+  outline: none;
+  background-color: #212529;
+}    .row {
+  background: #2980b9;
+  color: #fff;
+}
+
+h2 {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.btn {
+  border: 1px solid #fff;
+}
+
+ul.social-buttons {
+  color: gray;
+}
+
+ul.social-buttons li a {
+  font-size: 20px;
+  line-height: 50px;
+  display: block;
+  width: 50px;
+  height: 50px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  color: white;
+  border-radius: 100%;
+  outline: none;
+  background-color: #212529;
+}
